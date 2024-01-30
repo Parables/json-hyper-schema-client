@@ -1,0 +1,37 @@
+{
+    "name": "parables/json-hyper-schema-cient",
+    "description": "A headless client for fetching resources and navigating through hyperlinks provided in the hyper-schema in the response `Content-Type` header",
+    "type": "library",
+    "require-dev": {
+        "pestphp/pest": "^2.32",
+        "mockery/mockery": "^1.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Parables\\JsonHyperSchema\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Parables",
+            "email": "38154990+Parables@users.noreply.github.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "parables/php-utils": "^0.0.1",
+        "php-jsonpointer/php-jsonpointer": "^4.0",
+        "rize/uri-template": "^0.3.5"
+    }
+}

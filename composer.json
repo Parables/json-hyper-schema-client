@@ -21,7 +21,7 @@
   },
   "require": {
     "guzzlehttp/guzzle": "^7.8",
-    "parables/php-utils": "^0.0.1",
+    "parables/php-utils": "dev-main",
     "php-jsonpointer/php-jsonpointer": "^4.0",
     "rize/uri-template": "^0.3.5"
   },
